@@ -46,10 +46,10 @@ Dados fictícios utilizados: `usuário: maria@gmail.com` / `senha: maria123456`
 ## 🔍 Análise Técnica
 
 **Como o ataque funciona:**
-Essa ferramennta atua com técnicas de engenharia social onde um site ou domínio falso é hospedado em um servidor do atacante, esse domínio falso é acessado pela vitima omde a mesma insere suas credenciais e ao clicar para realizar o "login" seus dados são enviados para o servidordo atacante pelo listener e a vítima é redirecionada ao domínio oficial.
+Essa ferramenta atua com técnicas de engenharia social onde um site ou domínio falso é hospedado em um servidor do atacante, esse domínio falso é acessado pela vitima onde a mesma insere suas credenciais e ao clicar para realizar o "login" seus dados são enviados para o servidor do atacante pelo listener e a vítima é redirecionada ao domínio oficial.
 
 **Por que seria eficaz em um cenário real:**
-Muitos individuos não se atentam a detalhes dos dominios que acessam, e a falta de uma verifiação de acesso adequada como MFA(Multi Factor Access) e uma grande semelhança com o domínio oficial pode facilitar a obtençao dos dados ilegalmente por criminosos por meio de ferramentas como essa. assim como falta de concientização dos usuarios com acesso a dados sensiveis.
+Muitos individuos não se atentam a detalhes dos dominios que acessam, e a falta de uma verifiação de acesso adequada como MFA(Multi Factor Authentication) e uma grande semelhança com o domínio oficial pode facilitar a obtenção dos dados ilegalmente por meio de ferramentas como essa, assim como falta de concientização dos usuarios com acesso a dados sensiveis.
 
 **Limitações observadas no exercício:**
 Exercício realizado em ambiente controlado sem acesso a rede externa, com maquinas virtuais sem configurações avançadas de segurança.
