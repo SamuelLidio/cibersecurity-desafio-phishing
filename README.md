@@ -27,21 +27,21 @@ sudo setoolkit
 ```
 Caminho no menu: `Social-Engineering Attacks` → `Website Attack Vectors` → `Credential Harvester Attack Method` → `Web Templates`
 
-!(cibersecurity-desafio-phishing/menuSE.png)
+<img src="menuSE.png">
 
 ### 3. Definição do IP de escuta
 IP configurado: `192.168.56.101`
 
-!(cibersecurity-desafio-phishing/serverIP.png)
+<img src="serverIP.png">
 
 ### 4. Acesso simulado da vítima
-!(cibersecurity-desafio-phishing/fake-site.png)
+<img src="fake-site.png">
 
 ### 5. Envio de credenciais de teste
 Dados fictícios utilizados: `usuário: maria@gmail.com` / `senha: maria123456`
 
 ### 6. Verificação da captura
-!(cibersecurity-desafio-phishing/data-harvested.png)
+<img src="data-harvested.png">
 
 ## 🔍 Análise Técnica
 
